@@ -1,7 +1,7 @@
-Hybrid Framework for Automation testing with Maven, TestNG.
-Created by DoaiTran.
+Firez2AutomationFramework - Hybrid Framework for Automation testing - inclusive of Liberty Applications
+Created by Akhil.
 ========================================================================================================
-Version 4.0 (12-Dec-2016)
+ (25-APRIL-2018)
 ========================================================================================================
 Support:
 + Browsers: FF V.47.0.2; Chrome (Lasted version); IE (10;11)
@@ -34,6 +34,9 @@ Support:
     - verifyTreeViewItemNotExist
     - closeAlertOfBrowser                       - acceptAlertOfBrowser
     - verifyAlertText                           - sendValueToAlert
+    ------------------Liberty Applications keywords----------------------------------------
+    - WaitForQuoteLoad
+    - WaitForQuotePortfolioPageLoad
 ======================================= Exception Handling =============================================
 Getscreenshot
     + To take screenshots for failed steps on a test cases.
