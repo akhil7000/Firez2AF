@@ -1,0 +1,72 @@
+#############################################################################################
+#   We can define all Object repositories for project.                                      #
+#   Object names should be all Upper case ASCII letters with format as example:             #
+#		Element: ELE_NAME																	#       
+#		CheckBox:  CHK_NAME	                       Text/TextBox: TXT_NAME                   #
+#       ComboBox: MCB_NAME                         ListView: LST_NAME                       #
+#       RadioButton: RDB_NAME                      Table: TBL_NAME                          #
+#       Menu Bar:    WMB_NAME                      Button: BTN_NAME                         #
+#       ContextMenu:  CONTEXT_NAME                 Tab: TAB_NAME                            #
+#       ListBox:   LSTBOX_NAME		               Tree: TREE_NAME                          #
+#       Lable:  LBL_NAME                                                                    #
+#############################################################################################
+
+################### Home Page                                         						#######################
+################### URL: https://www.google.co.in/?gfe_rd=cr&dcr=0&ei=Ts7NWuv-NemeX4Pbp8AI  #######################
+
+TXT_STRATEGICDECISION = .//*[@id='content']/div[3]/div[1]/div/div/div/p[2]/span/a[1]
+LBL_BASICTUTORIAL = .//*[@id='content']/div[10]//span/a[@href ='http://www.seleniumframework.com/python-basic/what-is-python/']
+TXT_LEADERSHIP = .//*[@id='content']/div[3]/div[1]/div/div/div/p[1]/span/strong/span
+TXT_AGILETESTING = .//*[@id='content']/div[1]//h2/span/strong
+
+TXT_CONSULTANTCODE = //*[@id='ConsultantCode']
+ELE_PRODUCTLIST = //*[@id='select2-productSelect-container']
+LST_PRODUCTLIST = //*[@id="select2-productSelect-results"]
+BTN_CREATENEWQUOTE = //*[@id="btn-link-Newinvestment-create-quote"]
+
+ELE_AGILEPENSIONLINK = //*[@id="ProductSelection"]/div[2]/div/table/tbody/tr[1]/td/a
+ELE_AGILEPROVIDENTLINK = //*[@id="ProductSelection"]/div[2]/div/table/tbody/tr[2]/td/a
+ELE_AGILERALINK = //*[@id="ProductSelection"]/div[2]/div/table/tbody/tr[3]/td/a
+ELE_EVOLVEPENSIONLINK = //*[@id="ProductSelection"]/div[2]/div/table/tbody/tr[6]/td/a
+ELE_EVOLVEPROVIDENTLINK = //*[@id="ProductSelection"]/div[2]/div/table/tbody/tr[7]/td/a
+ELE_EVOLVERALINK = //*[@id="ProductSelection"]/div[2]/div/table/tbody/tr[8]/td/a
+
+
+TXT_RETIREMENTAGE = //*[@id="retirementAgeInYears"]
+
+###############For Agile Products only ############################
+TXT_LUMPSUM = //*[@id="lumpSumInvestmentAmount"] 
+ELE_SOURCELIST = //*[@id="select2-sourceOfFunds-container"]
+LST_SOURCELIST = //*[@id="select2-sourceOfFunds-results"]
+
+####################################################################
+	
+###############For Evolve Products##################################														
+TXT_TOTALINVESTMENTAMOUNT = //*[@id="totalInvestmentAmount"]
+ELE_CAPPEDTRACKERLIST = //*[@id="select2-cappedTrackerPortfolio-container"]
+LST_CAPPEDTRACKERLIST = //*[@id="select2-cappedTrackerPortfolio-results"]
+TXT_OTHERPORTFOLIOS = //*[@id="investDet"]/div/div[1]/div/div[6]/div[5]/div/input
+TXT_INITIALADVLUMPSUMEVOLVE = //*[@id="Evolve_InitialAdviceFeeLumpSum"]
+TXT_ONGOINGADVLUMPSUMEVOLVE = //*[@id="advFees"]/div/div[1]/div[1]/div[3]/div/div[1]/div[1]/input
+
+####################################################################
+								
+BTN_QUOTENEXT = //*[@id="btn-quote-next"]
+
+ELE_TITLELIST = //*[@id="select2-dropdownTitle-container"]
+LST_TITLELIST = //*[@id="select2-dropdownTitle-results"]
+TXT_FIRSTNAME = //*[@id="FirstName"]
+TXT_SURNAME = //*[@id="lastname"]
+TXT_DOB = //*[@id="dateofbirth"]
+CHK_WATERMARK = //*[@id="readConfirmationHighWatermarkGuarantee"] 
+BTN_WATERMARK = //*[@id="highWatermarkGuaranteeCloseBtn"]
+ELE_PORTFOLIOLIST = //*[@id="select2-fundLookup-container"]
+LST_PORTFOLIOLIST = //*[@id="select2-fundLookup-results"]
+BTN_ADDTOLUMPSUM = //*[@id="lumpSum"]/div/div[1]/div/div[1]/button[1]
+TXT_PORTFOLIO1 = 1
+TXT_PORTFOLIO2 = 2
+TXT_PORTFOLIO3 = 3
+TXT_INITIALADVLUMPSUM = //*[@id="Other_InitialAdviceFeeLumpSum"]
+TXT_ONGOINGADVLUMPSUM = //*[@id="Other_OngoingAdviceFeeTotalPercentage"]
+BTN_PROCEEDTOEP = //*[@id="btn-proceed-to-ep"]
+
